@@ -20,7 +20,7 @@ Step: the professor is John Doe --> Convert to custom dataobject.Professor. Prof
 Scenario: Enum scenario	
 Step: the professor level is ASSOCIATE --> Convert to custom dataobject.ProfLevels enum.
 
-
+-------------------------------------------------------------------
 
 [Datatable.feature](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature) & [DataTableStepDefinition](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java)
 
