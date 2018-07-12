@@ -1,4 +1,4 @@
-[Parameter.feature](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/parameter.feature) & [ParameterStepDefinition](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/ParameterStepDefinition.java)
+[PARAMETER feature](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/parameter.feature) & [PARAMETER StepDefinition](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/ParameterStepDefinition.java)
 
 -----	
 
@@ -42,29 +42,52 @@
 
 -------------------------------------------------------------------
 
-[Datatable.feature](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature) & [DataTableStepDefinition](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java)
+[DATATABLE feature](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature) & [DATATABLE StepDefinition](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java)
 
-Scenario: List of primitive	--> Convert to List<List<String>>.
-	
-Scenario: List of object containing primitive fields --> Convert to List<LecturePrimitive>.
-	
-Scenario: List of object containing primitive & enum fields	--> Convert to List<LecturePrimitiveEnum>.
-	
-Scenario: List of object containing object fields	--> Convert to List<Lecture>.
-	
-Scenario: Transpose List of object containing object fields --> Convert to List<Lecture> with Transpose annotation.
-	
-Scenario: List of object containing object fields with no table header --> Convert to List<LectureLite>.
-	
-Scenario: Map of primitive key and value --> Convert to Map<String,String>.
-	
-Scenario: Map of object key and enum value --> Convert to Map<Professor,ProfLevels>.
-	
-Scenario: Map of primitive key and object value	--> Convert to Map<String, Lecture>.
-	
-Scenario: Map of object key and value	--> Convert to Map<Lectureid, Lecture>.
-	
-Scenario: Transpose Map of object key and value	--> Convert to Map<Lectureid, Lecture> with Transpose annotation.
-	
-Scenario: Whole table to single object Lectures	--> Convert to object Lectures.
+-----	
 
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): List of primitive --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to List<List<String>>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): List of object containing primitive fields --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to List<LecturePrimitive>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): List of object containing primitive & enum fields --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to List<LecturePrimitiveEnum>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): List of object containing object fields --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to List<Lecture>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): Transpose List of object containing object fields --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to List<Lecture> with Transpose annotation.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): List of object containing object fields with no table header --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to List<LectureLite>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): Map of primitive key and value --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to Map<String,String>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): Map of object key and enum value --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to Map<Professor,ProfLevels>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): Map of primitive key and object value --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to Map<String, Lecture>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): Map of object key and value --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to Map<Lectureid, Lecture>.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): Transpose Map of object key and value --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8) Convert to Map<Lectureid, Lecture> with Transpose annotation.
+
+-----	
+	
+[Scenario](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/datatable.feature#L8): Whole table to single object Lectures --> [Step](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/DataTableStepDefinition.java#L8)Convert to object Lectures.
