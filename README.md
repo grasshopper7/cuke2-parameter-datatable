@@ -1,10 +1,13 @@
 [Parameter.feature](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/resources/features/parameter.feature) & [ParameterStepDefinition](https://github.com/grasshopper7/cuke2-parameter-datatable/blob/master/cuke2-parameter-datatable/src/test/java/stepdef/ParameterStepDefinition.java)
 
-Scenario: Delimiter annotation scenario	
+Scenario: Delimiter annotation scenario
+
 Step: the user names are jane,john,colin,alice --> Convert to List<String>.
+
 Step: the users are jane,john,colin,alice	--> Convert to List< dataobject.User>. User has a single argument constructor.
 	
 Scenario: Format annotation scenario	
+
 Step: the date is 2017-11-05T09:54:13	--> Convert to java.util.Date.
 	
 Scenario: Transformer annotation scenario	
