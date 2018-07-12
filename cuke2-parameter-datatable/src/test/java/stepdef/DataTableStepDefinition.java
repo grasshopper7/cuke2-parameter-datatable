@@ -20,19 +20,19 @@ import dataobject.Topic;
 
 public class DataTableStepDefinition {
 
-	@Given("the list string lecture details are")
+	@Given("^the list string lecture details are$")
 	public void theStringLectureDetailsAre(List<List<String>> lectures) {
 		System.out.println("");
 		System.out.println(lectures);
 	}
 	
-	@Given("the list primitive lecture details are")
+	@Given("^the list primitive lecture details are$")
 	public void thePrimitiveLectureDetailsAre(List<LecturePrimitive> lectures) {
 		System.out.println("");
 		System.out.println(lectures);
 	}
 	
-	@Given("the list primitive enum lecture details are")
+	@Given("^the list primitive enum lecture details are$")
 	public void thePrimitiveEnumLectureDetailsAre(List<LecturePrimitiveEnum> lectures) {
 		System.out.println("");
 		System.out.println(lectures);
@@ -71,7 +71,7 @@ public class DataTableStepDefinition {
 		System.out.println(profs);
 	}
 	
-	@Given("the map primitive key lecture details are")
+	@Given("^the map primitive key lecture details are$")
 	public void theMapPrimitiveKey(List<List<String>> lectstrs) {
 		Map<String, Lecture> lects = new HashMap<>();
 		for(List<String> row : lectstrs)
@@ -80,19 +80,19 @@ public class DataTableStepDefinition {
 		System.out.println(lects);
 	}
 
-	@Given("the map lecture details are")
+	@Given("^the map lecture details are$")
 	public void theMapLectureDetailsAre(List<List<String>> lectstrs) {
 		System.out.println("");
 		System.out.println(mapIdLecture(lectstrs));
 	}	
 	
-	@Given("switch the map lecture details are")
+	@Given("^switch the map lecture details are$")
 	public void switchTheMapLectureDetailsAre(@Transpose List<List<String>> lectstrs) {
 		System.out.println("");
 		System.out.println(mapIdLecture(lectstrs));
 	}
 	
-	@Given("all lectures details")
+	@Given("^all lectures details$")
 	public void allLecturesDetails(List<List<String>> lectstrs) {
 		Lectures lectures = new Lectures();
 		for(List<String> row : lectstrs)

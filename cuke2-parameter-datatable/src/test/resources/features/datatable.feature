@@ -1,5 +1,5 @@
-Feature: XStream feature
-
+Feature: DataTable Conversion for Cucumber-JVM 2
+    
   Scenario: XStream datatable scenario List<String>
     Given the list string lecture details are
       | Jane | 40 | Assistant |

@@ -1,4 +1,4 @@
-Feature: 
+Feature: Parameter Conversion for Cucumber-JVM 2
 
   Scenario: Delimiter scenario
     Given the user names are jane,john,colin,alice
