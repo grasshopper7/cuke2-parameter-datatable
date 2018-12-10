@@ -1,5 +1,5 @@
 Feature: DataTable Conversion for Cucumber-JVM 2
-    
+
   Scenario: List of primitive List<List<String>>
     Given the list string lecture details are
       | Jane | 40 | Assistant |
@@ -16,6 +16,12 @@ Feature: DataTable Conversion for Cucumber-JVM 2
       | profName | size | profLevel |
       | Jane     |   40 | Assistant |
       | Doe      |   30 | Associate |
+
+  Scenario: DataTable scenario simple object List<LectureSimple>
+    Given the list simple lecture object details are
+      | profName | size | profLevel |
+      | Jane     |   40 | ASSISTANT |
+      | Doe      |   30 | ASSOCIATE |
 
   Scenario: List of object containing object fields List<Lecture>
     Given the lecture details are
@@ -67,7 +73,7 @@ Feature: DataTable Conversion for Cucumber-JVM 2
 
   Scenario: Whole table to single object Lectures
     Given all lectures details
-      | John     | A1:Topic One   |   40 |         3 | 101A,302C |
-      | Jane     | Z9:Topic Six   |   30 |         2 | 220E,419D |
-      | Patrick  | E5:Topic Two   |   60 |         1 | 901B,732C |
-      | Melrose  | M6:Topic Seven |   20 |         2 | 444E,909A |
+      | John    | A1:Topic One   | 40 | 3 | 101A,302C |
+      | Jane    | Z9:Topic Six   | 30 | 2 | 220E,419D |
+      | Patrick | E5:Topic Two   | 60 | 1 | 901B,732C |
+      | Melrose | M6:Topic Seven | 20 | 2 | 444E,909A |

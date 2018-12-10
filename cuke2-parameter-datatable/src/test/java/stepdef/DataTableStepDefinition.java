@@ -13,6 +13,7 @@ import dataobject.LectureId;
 import dataobject.LectureLite;
 import dataobject.LecturePrimitive;
 import dataobject.LecturePrimitiveEnum;
+import dataobject.LectureSimple;
 import dataobject.Lectures;
 import dataobject.ProfLevels;
 import dataobject.Professor;
@@ -34,6 +35,12 @@ public class DataTableStepDefinition {
 	
 	@Given("^the list primitive enum lecture details are$")
 	public void thePrimitiveEnumLectureDetailsAre(List<LecturePrimitiveEnum> lectures) {
+		System.out.println("");
+		System.out.println(lectures);
+	}
+	
+	@Given("the list simple lecture object details are")
+	public void theSimpleLectureObjectDetailsAre(List<LectureSimple> lectures) {
 		System.out.println("");
 		System.out.println(lectures);
 	}
