@@ -29,15 +29,6 @@ public class LectureSimple {
 		this.profLevel = profLevel;
 	}
 	
-	public static LectureSimple createLecture(Map<String, String> entry) {
-		LectureSimple lecture = new LectureSimple();
-		Professor prof = new Professor();
-		prof.setProfName(entry.get("profName"));
-		lecture.setProfName(prof);
-		lecture.setSize(Integer.parseInt(entry.get("size")));
-		lecture.setProfLevel(ProfLevels.valueOf(entry.get("profLevel").toUpperCase()));
-		return lecture;
-	}
 	@Override
 	public String toString() {
 		return "LectureSimple [profName=" + profName + ", size=" + size + ", profLevel=" + profLevel + "]";

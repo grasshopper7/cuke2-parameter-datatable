@@ -1,7 +1,5 @@
 package dataobject;
 
-import java.util.Map;
-
 public class LecturePrimitive {
 
 	private String profName;
